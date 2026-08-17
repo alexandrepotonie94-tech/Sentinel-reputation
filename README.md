@@ -1,4 +1,3 @@
-# Sentinel-reputation
 # Sentinel Reputation Office – Site one‑page
 
 Site one‑page de **Sentinel Reputation Office**, bureau privé de réputation, confidentialité et gestion de crise pour familles très fortunées (UHNW), family offices et dirigeants exposés.
