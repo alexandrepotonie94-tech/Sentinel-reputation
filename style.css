@@ -425,3 +425,97 @@ section h2 {
     gap: 4px;
   }
 }
+/* Correctif final du thème */
+html,
+body {
+  min-height: 100%;
+  background: #0b101a !important;
+}
+
+body {
+  color: #f4f7fb !important;
+}
+
+.site-header {
+  background: rgba(11, 16, 26, 0.97) !important;
+  border-bottom: 1px solid rgba(205, 218, 237, 0.16) !important;
+}
+
+.brand,
+.nav a {
+  color: #f4f7fb !important;
+}
+
+.nav > a:not(.btn-contact):hover {
+  color: #d9e4f7 !important;
+}
+
+.btn-contact,
+.btn-primary {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: #d9e4f7 !important;
+  color: #111827 !important;
+  border: 1px solid #d9e4f7 !important;
+  border-radius: 7px !important;
+  text-decoration: none !important;
+  font-weight: 700 !important;
+}
+
+.btn-contact {
+  min-height: 48px !important;
+  padding: 0 20px !important;
+}
+
+.btn-primary {
+  min-height: 54px !important;
+  padding: 0 26px !important;
+}
+
+.btn-contact:hover,
+.btn-primary:hover {
+  background: #ffffff !important;
+  color: #111827 !important;
+}
+
+.problem {
+  background: #f3f5f8 !important;
+}
+
+.offer,
+.method,
+.audience,
+.contact {
+  background: #0b101a !important;
+}
+
+.method {
+  background: #111a29 !important;
+}
+
+.audience {
+  background: #101928 !important;
+}
+
+.service-card,
+.audience-card {
+  background: #162236 !important;
+  border-color: rgba(205, 218, 237, 0.16) !important;
+}
+
+.service-card h3,
+.audience-card h3,
+.method-step h3 {
+  color: #ffffff !important;
+}
+
+.service-card p,
+.audience-card p,
+.method-step p {
+  color: #b8c2d1 !important;
+}
+
+.site-footer {
+  background: #080d15 !important;
+}
