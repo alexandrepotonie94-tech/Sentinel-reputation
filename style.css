@@ -344,3 +344,88 @@ section p {
   font-size: 0.85rem;
   color: #666;
 }
+/* Hero */
+.hero .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.eyebrow,
+.section-kicker {
+  margin-bottom: 18px;
+  color: #8b93a1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.hero h1 {
+  max-width: 850px;
+  margin: 0 auto 24px;
+  line-height: 1.15;
+}
+
+.hero-description {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #c7ccd4;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.cta-note {
+  margin-top: 12px;
+  color: #8b93a1;
+  font-size: 0.82rem;
+}
+
+/* Section Pour qui */
+.audience {
+  padding: 96px 0;
+  background: #111827;
+}
+
+.audience h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.audience-intro {
+  max-width: 680px;
+  margin: 0 auto 42px;
+  color: #aeb6c2;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.audience-card {
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.audience-card h3 {
+  margin: 0 0 12px;
+  color: #fff;
+  font-size: 1.05rem;
+}
+
+.audience-card p {
+  margin: 0;
+  color: #b8c0cc;
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .audience-grid {
+    grid-template-columns: 1fr;
+  }
+}
